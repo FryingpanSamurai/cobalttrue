@@ -1,0 +1,21 @@
+{
+  "name": "cobalttrue",
+  "displayName": "CobaltTrue",
+  "description": "its been so long and tin cans and string for years",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CobaltTrue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CobaltTrue-color-theme.json"
+      }
+    ]
+  }
+}
