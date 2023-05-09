@@ -13,23 +13,24 @@ I've been a big champion of Dark+, but frankly it was a bit too bright and the c
 
 The objective of this theme was to deliver a subdued 'monotone' blue[]centric dark theme for us night coders.
 
+
+
+## ON THE HORIZON:
+- [ ] Further testing to solidify color themeing
+- [ ] Investigate color theme for file formats related to data structure/content (i.e. .json, .md, .bson, etc.)
+- [ ] Investigate color theme for other languages
+- [ ] Consider parethesis recolor and priority contrast
+- [ ] Night vs Day use, impacts/ease of use/readability/eye strain
+- [ ] Testing impact of 'monotone' use of similar hues
+- [ ] Color Themeing for GitHub source changes and file modifications
+- [ ] Themeing for error handling and CSS structure
+- [ ] A11y compliancy checks
+
+
 ***This is still a work in progress. Theme optimized for python development only (as of 5/9/23).***
-
-ON THE HORIZON::
-[] Further testing to solidify color themeing
-[] Investigate color theme for file formats related to data structure/content (i.e. .json, .md, .bson, etc.)
-[] Investigate color theme for other languages
-[] Consider parethesis recolor and priority contrast
-[] Night vs Day use, impacts/ease of use/readability/eye strain
-[] Testing impact of 'monotone' use of similar hues
-[] Color Themeing for GitHub source changes and file modifications
-[] Themeing for error handling and CSS structure
-[] A11y compliancy checks
-
-
 *Feel free to share your thoughts and opinions about the theme. This is my first hand at developing a color theme.*
 
 | Ver | Description | Features |
-|[][][][]:|[][][][][][][][][][][][][]|[][][][][][][][][][]|
+|----:|-------------|----------|
 |0.0.1|initial      |skeleton  |
 |1.0.0|first maj    |designed for python use, semantic Highlighting enabled, blue[]centric themeing, "infrared" accentures, contrast approach|
