@@ -1,8 +1,10 @@
 {
   "name": "cobalttrue",
   "displayName": "CobaltTrue",
+  "publisher": "FryingpanSamurai",
   "description": "its been so long and tin cans and string for years",
   "version": "0.0.1",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.78.0"
   },
@@ -16,6 +18,22 @@
         "uiTheme": "vs-dark",
         "path": "./themes/CobaltTrue-color-theme.json"
       }
+    ],
+    "configurationDefaults": {
+      "[python]": {
+        "editor.semanticHighlighting.enabled": true
+      }
+    },
+    "languages": [
+      {
+        "id": "semanticLanguage",
+        "extensions": [
+          ".semanticLanguage"
+        ]
+      }
     ]
+  },
+  "repository": {
+    "url": "https://github.com/FryingpanSamurai/cobalttrue"
   }
 }

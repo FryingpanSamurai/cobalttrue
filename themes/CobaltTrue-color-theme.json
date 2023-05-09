@@ -2,9 +2,50 @@
 	"name": "CobaltTrue",
 	"colors": {
 		"editor.background": "#121418",
-		"editor.foreground": "#626d7a",
+		"editor.foreground": "#666",
+		"titleBar.activeBackground": "#121418",
+		"editorHoverWidget.background": "#161822",
+		"menubar.selectionBackground": "#182025",
+		"menu.background": "#121418",
+		"menu.selectionBackground": "#161822",
+		"menu.foreground": "#666",
+		"editorGroupHeader.tabsBackground": "#121418",
+		"editorGroupHeader.noTabsBackground": "#121418",
+		"tab.activeBackground": "#121418",
+		"tab.activeForeground": "#591b1a",
+		"tab.inactiveBackground": "#161822",
+		"tab.hoverBackground": "#121418",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"activityBar.background": "#161822",
+		"activityBar.foreground": "#591b1a",
+		"activityBar.activeBackground": "#121418",
+		"activityBar.activeBorder": "#33B4C7",
+		"sideBarTitle.foreground": "#999",
+		"sideBar.background": "#121418",
+		"sideBar.foreground": "#555",
+		"list.activeSelectionBackground": "#182025",
+		"list.activeSelectionForeground": "#999",
+		"focusBorder": "#591b1a",
+		"list.inactiveSelectionBackground": "#182025",
+		"list.inactiveSelectionForeground": "#666",
+		"list.hoverBackground": "#161822",
+		"sideBarSectionHeader.background": "#121418",
+		"sideBarSectionHeader.foreground": "#999",
+		"statusBar.background": "#121418",
+		"statusBar.foreground": "#666",
+		"statusBarItem.remoteBackground": "#121418",
+		"statusBarItem.remoteForeground": "#591b1a",
+		"statusBarItem.hoverBackground": "#182025",
+		"statusBarItem.compactHoverBackground": "#182025",
+		"toolbar.hoverBackground": "#182025",
+		"commandCenter.background": "#182025",
+		"commandCenter.activeBackground": "#202227",
+		"input.background": "#182025",
+		"quickInput.background": "#121418",
+		"quickInput.foreground": "#666",
+		"quickInputList.focusForeground": "#999",
+		"dropdown.background": "#161822",
+		"dropdown.foreground": "#999",
 	},
 	"tokenColors": [
 		{
@@ -22,10 +63,21 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
+				"variable.other.readwrite",
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#55dde0"
+				"foreground": "#2690a8"
+			}
+		},
+		{
+			"name": "Entity Namespace",
+			"scope": [
+				"entity.name.namespace"
+			],
+			"settings": {
+				"foreground": "#2C7DA0",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -55,7 +107,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#3a8394"
+				"foreground": "#014F86"
 			}
 		},
 		{
@@ -64,7 +116,7 @@
 				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#2690a8",
+				"foreground": "#778DA9",
 				"fontStyle": "bold"
 			}
 		},
@@ -83,17 +135,6 @@
 			],
 			"settings": {
 				"foreground": "#778DA9"
-			}
-		},
-		{
-			"name": "Parenthesis",
-			"scope": [
-				"punctuation.definition.arguments.begin",
-				"punctuation.definition.arguments.end"
-			],
-			"settings": {
-				"foreground": "#65BA3D",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -117,26 +158,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#74c3ff"
-			}
-		},
-		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#f07178"
-			}
-		},
-		{
-			"name": "Other Variable, String Link",
-			"scope": [
-				"support.other.variable",
-				"string.other.link"
-			],
-			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#62a8e6"
 			}
 		},
 		{
@@ -155,24 +177,15 @@
 			}
 		},
 		{
-			"name": "Variable Param",
+			"name": "Function and Variable Param",
 			"scope": [
-				"variable.parameter"
-			],
-			"settings": {
-				"foreground": "#666",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Function Param",
-			"scope": [
+				"variable.parameter",
 				"variable.parameter.function",
 				"variable.parameter.function-call"
 			],
 			"settings": {
-				"foreground": "#45b9bb",
-				"fontStyle": ""
+				"foreground": "#468FAF",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -186,7 +199,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#778DA9"
+				"foreground": "#2C7DA0"
 			}
 		},
 		{
@@ -200,23 +213,13 @@
 			}
 		},
 		{
-			"name": "Member Access",
-			"scope": [
-				"meta.member.access"
-			],
-			"settings": {
-				"foreground": "#3ea28e",
-				"fontStyle": ""
-			}
-		},
-		{
 			"name": "Granular String",
 			"scope": [
 				"string.quoted.double",
 				"string.quoted.single"
 			],
 			"settings": {
-				"foreground": "#83c4e2",
+				"foreground": "#4f9c99",
 				"fontStyle": ""
 			}
 		},
@@ -246,16 +249,6 @@
 			}
 		},
 		{
-			"name": "Entity Function Decorator",
-			"scope": [
-				"entity.name.function.decorator"
-			],
-			"settings": {
-				"foreground": "#0fcdd0",
-				"fontStyle": ""
-			}
-		},
-		{
 			"name": "CSS Class and Support",
 			"scope": [
 				"source.css support.type.property-name",
@@ -267,17 +260,6 @@
 			],
 			"settings": {
 				"foreground": "#B2CCD6"
-			}
-		},
-		{
-			"name": "Sub-methods",
-			"scope": [
-				"entity.name.module.js",
-				"variable.import.parameter.js",
-				"variable.other.class.js"
-			],
-			"settings": {
-				"foreground": "#FF5370"
 			}
 		},
 		{
@@ -316,7 +298,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#3a506b"
+				"foreground": "#324a5f"
 			}
 		},
 		{
