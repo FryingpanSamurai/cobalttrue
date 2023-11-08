@@ -69,6 +69,15 @@
 			"settings": {
 				"foreground": "#2690a8"
 			}
+		},		
+		{
+			"name": "Variable props",
+			"scope": [
+				"variable.other.property",
+			],
+			"settings": {
+				"foreground": "#26a88c"
+			}
 		},
 		{
 			"name": "Entity Namespace",
