@@ -17,9 +17,9 @@ The objective of this theme was to deliver a subdued 'monotone' blue[]centric da
 
 ## ON THE HORIZON:
 - [ ] Further testing to solidify color themeing
-- [ ] Investigate color theme for file formats related to data structure/content (i.e. .json, .md, .bson, etc.)
-- [ ] Investigate color theme for other languages
-- [ ] Consider parethesis recolor and priority contrast
+- [..] Investigate color theme for file formats related to data structure/content (i.e. .json, .md, .bson, etc.)
+- [..] Investigate color theme for other languages
+- [..] Consider parenthesis recolor and priority contrast
 - [ ] Night vs Day use, impacts/ease of use/readability/eye strain
 - [ ] Testing impact of 'monotone' use of similar hues
 - [ ] Color Themeing for GitHub source changes and file modifications
