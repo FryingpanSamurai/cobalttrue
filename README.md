@@ -34,3 +34,4 @@ The objective of this theme was to deliver a subdued 'monotone' blue[]centric da
 |----:|-------------|----------|
 |0.0.1|initial      |skeleton  |
 |1.0.0|first maj    |designed for python use, semantic Highlighting enabled, blue[]centric themeing, "infrared" accentures, contrast approach|
+|1.2.0|minor        |retooling themeing, adding support for data structures and more |
