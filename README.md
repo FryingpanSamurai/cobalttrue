@@ -11,7 +11,7 @@ After a while it was looking more like the infamous NightOwl and that wasn't my 
 I wanted something that was more reliant on contrast than color.
 I've been a big champion of Dark+, but frankly it was a bit too bright and the color scheme was something to be desired.
 
-The objective of this theme was to deliver a subdued 'monotone' blue[]centric dark theme for us night coders.
+The objective of this theme was to deliver a subdued 'monotone' blue-centric dark theme.
 
 
 
@@ -25,6 +25,8 @@ The objective of this theme was to deliver a subdued 'monotone' blue[]centric da
 - [ ] Color Themeing for GitHub source changes and file modifications
 - [ ] Themeing for error handling and CSS structure
 - [ ] A11y compliancy checks
+- [ ] Debugging Themeing
+- [ ] Highlight color masks some of the selected text
 
 
 ***This is still a work in progress. Theme optimized for python development only (as of 5/9/23).***
@@ -33,4 +35,4 @@ The objective of this theme was to deliver a subdued 'monotone' blue[]centric da
 | Ver | Description | Features |
 |----:|-------------|----------|
 |0.0.1|initial      |skeleton  |
-|1.0.0|first maj    |designed for python use, semantic Highlighting enabled, blue[]centric themeing, "infrared" accentures, contrast approach|
+|1.0.0|first maj    |designed for python use, semantic Highlighting enabled, blue-centric themeing, "infrared" accentures, contrast approach|

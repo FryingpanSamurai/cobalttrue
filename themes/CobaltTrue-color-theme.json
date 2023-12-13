@@ -37,6 +37,8 @@
 		"statusBarItem.remoteForeground": "#591b1a",
 		"statusBarItem.hoverBackground": "#182025",
 		"statusBarItem.compactHoverBackground": "#182025",
+		"statusBar.debuggingBackground": "#591b1a",
+		"statusBar.debuggingForeground": "#121418",
 		"toolbar.hoverBackground": "#182025",
 		"commandCenter.background": "#182025",
 		"commandCenter.activeBackground": "#202227",
