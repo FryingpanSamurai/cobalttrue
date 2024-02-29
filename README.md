@@ -1,7 +1,19 @@
 # CobaltTrue
 Monotone Blues with Green Splashed
 
-![Screenshot of CobaltTrue on VSCode.](images/ct-ss.png)
+![Screenshot of CobaltTrue on VSCode.](images/ct-ss2.png)
+![Second Screenshot](images/rdme.png)
+![Last Screencap](images/svltkit.png)
+
+I use these settings on for workbench:
+```
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#591b1a",
+    "editorBracketHighlight.foreground2": "#f37894",
+    "editorBracketHighlight.foreground3": "#A1EEBD"
+  }
+```
 
 
 ## Based on Nautical Color Palette
