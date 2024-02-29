@@ -38,3 +38,4 @@ The objective of this theme was to deliver a subdued 'monotone' blue-centric dar
 |1.0.0|first maj    |designed for python use, semantic Highlighting enabled, blue-centric themeing, "infrared" accentures, contrast approach|
 |1.2.0|minor        |retooling themeing, adding support for data structures and more |
 |1.3.0|minor        |subdued terminal foreground, var props contrast adjustment, markdown coloring, debug toolbar |
+|1.6.1|minor        |version glitch jumped to 1.6... recolor css id and class selectors |
