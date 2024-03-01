@@ -1,7 +1,19 @@
 # CobaltTrue
 Monotone Blues with Green Splashed
 
-![Screenshot of CobaltTrue on VSCode.](images/ct-ss.png)
+![Screenshot of CobaltTrue on VSCode.](images/ct-ss2.png)
+![Second Screenshot](images/rdme.png)
+![Last Screencap](images/svltkit.png)
+
+I use these settings on for workbench:
+```
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#591b1a",
+    "editorBracketHighlight.foreground2": "#f37894",
+    "editorBracketHighlight.foreground3": "#A1EEBD"
+  }
+```
 
 
 ## Based on Nautical Color Palette
@@ -38,3 +50,5 @@ The objective of this theme was to deliver a subdued 'monotone' blue-centric dar
 |1.0.0|first maj    |designed for python use, semantic Highlighting enabled, blue-centric themeing, "infrared" accentures, contrast approach|
 |1.2.0|minor        |retooling themeing, adding support for data structures and more |
 |1.3.0|minor        |subdued terminal foreground, var props contrast adjustment, markdown coloring, debug toolbar |
+|1.6.1|minor        |version glitch jumped to 1.6... recolor css id and class selectors |
+|1.6.3|minor        |updated screencaps on rdme|

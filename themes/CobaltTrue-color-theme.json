@@ -271,7 +271,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#52a6c8"
 			}
 		},
 		{
@@ -330,16 +330,14 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
 			}
 		},
 		{
 			"name": "CSS ID's",
 			"scope": [
-				"source.sass keyword.control"
+				"entity.other.attribute-name.id"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
 			}
 		},
 		{
