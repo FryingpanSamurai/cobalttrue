@@ -52,3 +52,4 @@ The objective of this theme was to deliver a subdued 'monotone' blue-centric dar
 |1.3.0|minor        |subdued terminal foreground, var props contrast adjustment, markdown coloring, debug toolbar |
 |1.6.1|minor        |version glitch jumped to 1.6... recolor css id and class selectors |
 |1.6.3|minor        |updated screencaps on rdme|
+|1.6.4|minor        |json levels recolor|
