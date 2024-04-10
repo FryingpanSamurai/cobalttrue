@@ -67,7 +67,8 @@
 			"scope": [
 				"variable",
 				"variable.other.readwrite",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
+				"entity.name.variable"
 			],
 			"settings": {
 				"foreground": "#2ca9c5"
@@ -77,6 +78,7 @@
 			"name": "Variable props",
 			"scope": [
 				"variable.other.property",
+				"variable.other.object.property"
 			],
 			"settings": {
 				"foreground": "#74a9ff"
@@ -85,11 +87,21 @@
 		{
 			"name": "Entity Namespace",
 			"scope": [
-				"entity.name.namespace"
+				"entity.name.namespace",
+				"entity.name.type.namespace"
 			],
 			"settings": {
 				"foreground": "#2C7DA0",
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Entity Type",
+			"scope": [
+				"entity.name.type",
+			],
+			"settings": {
+				"foreground": "#167881",
 			}
 		},
 		{
@@ -154,7 +166,8 @@
 			"scope": [
 				"entity.name.tag",
 				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
+				"markup.deleted.git_gutter",
+				"invalid.illegal.unrecognized-tag"
 			],
 			"settings": {
 				"foreground": "#1e96fc"
@@ -193,7 +206,8 @@
 			"scope": [
 				"variable.parameter",
 				"variable.parameter.function",
-				"variable.parameter.function-call"
+				"variable.parameter.function-call",
+				"entity.name.variable.parameter"
 			],
 			"settings": {
 				"foreground": "#468FAF",
@@ -239,6 +253,7 @@
 			"name": "Class, Support",
 			"scope": [
 				"entity.name",
+				"entity.name.type.class",
 				"support.type",
 				"support.class",
 				"support.other.namespace.use.php",
@@ -423,7 +438,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#2530ff"
+				"foreground": "#5d46e2"
 			}
 		},
 		{
