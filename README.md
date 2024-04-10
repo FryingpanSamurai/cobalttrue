@@ -5,12 +5,12 @@ Monotone Blues with Green Splashed
 ![Second Screenshot](images/rdme.png)
 ![Last Screencap](images/svltkit.png)
 
-I use these settings on for workbench:
+I use these workbench settings:
 ```
   "editor.bracketPairColorization.enabled": true,
   "workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#591b1a",
-    "editorBracketHighlight.foreground2": "#f37894",
+    "editorBracketHighlight.foreground1": "#591B1A",
+    "editorBracketHighlight.foreground2": "#F37894",
     "editorBracketHighlight.foreground3": "#A1EEBD"
   }
 ```
@@ -29,9 +29,9 @@ The objective of this theme was to deliver a subdued 'monotone' blue-centric dar
 
 ## ON THE HORIZON:
 - [ ] Further testing to solidify color themeing
-- [..] Investigate color theme for file formats related to data structure/content (i.e. .json, .md, .bson, etc.)
-- [..] Investigate color theme for other languages
-- [..] Consider parenthesis recolor and priority contrast
+- [ ] Investigate color theme for file formats related to data structure/content (i.e. .json, .md, .bson, etc.)
+- [ ] Investigate color theme for other languages
+- [ ] Consider parenthesis recolor and priority contrast
 - [ ] Night vs Day use, impacts/ease of use/readability/eye strain
 - [ ] Testing impact of 'monotone' use of similar hues
 - [ ] Color Themeing for GitHub source changes and file modifications
@@ -41,7 +41,7 @@ The objective of this theme was to deliver a subdued 'monotone' blue-centric dar
 - [ ] Highlight color masks some of the selected text
 
 
-***This is still a work in progress. Theme optimized for python development only (as of 5/9/23).***
+***This is still a work in progress. Currently working on supporting C# syntax (4/10/24).***
 *Feel free to share your thoughts and opinions about the theme. This is my first hand at developing a color theme.*
 
 | Ver | Description | Features |
@@ -53,3 +53,4 @@ The objective of this theme was to deliver a subdued 'monotone' blue-centric dar
 |1.6.1|minor        |version glitch jumped to 1.6... recolor css id and class selectors |
 |1.6.3|minor        |updated screencaps on rdme|
 |1.6.4|minor        |json levels recolor|
+|1.6.5|minor        |adding support for C# projects, json slight recolor|
