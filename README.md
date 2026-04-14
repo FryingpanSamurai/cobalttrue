@@ -41,7 +41,7 @@ The objective of this theme was to deliver a subdued 'monotone' blue-centric dar
 - [ ] Highlight color masks some of the selected text
 
 
-***This is still a work in progress. Currently working on supporting C# syntax (4/10/24).***
+***This is still a work in progress. Continuous evalation triggers development of this project.***
 *Feel free to share your thoughts and opinions about the theme. This is my first hand at developing a color theme.*
 
 | Ver | Description | Features |
@@ -55,3 +55,5 @@ The objective of this theme was to deliver a subdued 'monotone' blue-centric dar
 |1.6.4|minor        |json levels recolor|
 |1.8.0|minor        |adding support for C# projects, json slight recolor|
 |1.8.1|minor        |slight recolor on enitity types C#|
+|1.8.2|minor        |recolor foreground for inactive tabs|
+
